@@ -1,5 +1,7 @@
 print "Enter Camera Make:"
 
+puts "canon,Nikon"
+=begin
 camera =gets.chomp
 
 case camera
@@ -12,3 +14,4 @@ when "Sony","sony","Fujifilm","fujifilm", "Panasonic","panasonic"
 else "English"
  puts "No Make"
 end
+=end
